@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Sobre mim - Portfólio</title>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Theme Config -->
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#1313ec",
+              "background-light": "#f6f6f8",
+              "background-dark": "#101022",
+              "card-dark": "#16162a", // Slightly lighter for cards in dark mode
+            },
+            fontFamily: {
+              "display": ["Manrope", "sans-serif"]
+            },
+            borderRadius: {
+              "DEFAULT": "0.25rem", 
+              "lg": "0.5rem", 
+              "xl": "0.75rem", 
+              "full": "9999px"
+            },
+          },
+        },
+      }
+    </script>
+<style>
+        /* Hide scrollbar for Chrome, Safari and Opera */
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        /* Hide scrollbar for IE, Edge and Firefox */
+        .no-scrollbar {
+            -ms-overflow-style: none;  /* IE and Edge */
+            scrollbar-width: none;  /* Firefox */
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-white antialiased selection:bg-primary selection:text-white">
+<div class="relative flex min-h-screen w-full flex-col overflow-x-hidden pb-24">
+<!-- TopAppBar -->
+<div class="sticky top-0 z-40 flex items-center justify-between bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md p-4 pb-2 border-b border-slate-200 dark:border-slate-800">
+<button  class="flex size-10 items-center justify-center rounded-full text-slate-900 dark:text-white hover:bg-slate-200 dark:hover:bg-slate-800 transition-colors" >
+<span onclick="window.location.href='index.html'" class="material-symbols-outlined"  >arrow_back</span>
+</button>
+<h2 class="text-lg font-bold leading-tight tracking-[-0.015em]">Sobre mim</h2>
+<div class="size-10"></div> <!-- Spacer for center alignment -->
+</div>
+<!-- ProfileHeader -->
+<div class="flex p-4 pt-6 @container">
+<div class="flex w-full flex-col items-center gap-4">
+<div class="relative">
+<div class="h-32 w-32 rounded-xl bg-center bg-cover shadow-lg shadow-primary/20 ring-4 ring-background-light dark:ring-background-dark" data-alt="Professional headshot of a smiling developer with glasses">
+  <img src="me.jpg" alt="" style="border-radius: 200px;">
+
+</div>
+<div class="absolute -bottom-2 -right-2 rounded-full bg-primary p-1.5 text-white ring-4 ring-background-light dark:ring-background-dark">
+<span class="material-symbols-outlined text-[18px] leading-none">code</span>
+</div>
+</div>
+<div class="flex flex-col items-center justify-center gap-1">
+<p class="text-2xl font-extrabold leading-tight tracking-tight text-slate-900 dark:text-white">Christians Robert</p>
+<p class="text-slate-500 dark:text-slate-400 text-base font-medium">Profissional de Tecnologia</p>
+</div>
+</div>
+</div>
+<!-- ActionsBar -->
+<div class="@container mb-6">
+<div class="flex justify-center gap-6 px-4">
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+<!-- Bio Section -->
+<div class="px-4 mb-8">
+<h3 class="text-lg font-bold leading-tight mb-3 text-slate-900 dark:text-white">Bio</h3>
+<p class="text-slate-600 dark:text-slate-300 text-base font-normal leading-relaxed">
+Profissional experiente em TI e administração, com foco na automação de processos, análise de dados e
+otimização de fluxos operacionais. Fluente em inglês (nível C2), busco sempre aprimorar minhas habilidades e
+contribuir para o crescimento das empresas por meio de estratégias baseadas em dados e inovação            </p>
+</div>
+<!-- Skills Section (Horizontal Scroll) -->
+<div class="mb-8 w-full">
+<h3 class="px-4 text-lg font-bold leading-tight mb-3 text-slate-900 dark:text-white">Habilidades</h3>
+<div class="flex gap-3 overflow-x-auto px-4 pb-2 no-scrollbar w-full">
+<!-- Skill Tag -->
+<div class="shrink-0 rounded-lg bg-primary/10 dark:bg-primary/20 px-3 py-1.5 text-sm font-semibold text-white">
+                    Javascript
+                </div>
+<div class="shrink-0 rounded-lg bg-primary/10 dark:bg-primary/20 px-3 py-1.5 text-sm font-semibold text-white">
+                    HTML
+                </div>
+<div class="shrink-0 rounded-lg bg-primary/10 dark:bg-primary/20 px-3 py-1.5 text-sm font-semibold text-white">
+                    CSS
+                </div>
+<div class="shrink-0 rounded-lg bg-primary/10 dark:bg-primary/20 px-3 py-1.5 text-sm font-semibold text-white">
+  React
+</div>
+<div class="shrink-0 rounded-lg bg-primary/10 dark:bg-primary/20 px-3 py-1.5 text-sm font-semibold text-white">
+  SQL
+</div>
+<div class="shrink-0 rounded-lg bg-primary/10 dark:bg-primary/20 px-3 py-1.5 text-sm font-semibold text-white">
+  Power Bi
+
+                </div>
+
+<div class="shrink-0 rounded-lg bg-primary/10 dark:bg-primary/20 px-3 py-1.5 text-sm font-semibold text-white">
+                    Suporte Técnico
+
+                </div>
+
+
+
+</div>
+</div>
+<!-- Experience Section -->
+<div class="px-4 mb-8">
+<h3 class="text-lg font-bold leading-tight mb-4 text-slate-900 dark:text-white">Experiência</h3>
+<div class="flex flex-col gap-4">
+<!-- Experience Card 1 -->
+<div class="flex flex-col rounded-xl bg-white dark:bg-card-dark p-4 shadow-sm ring-1 ring-slate-100 dark:ring-slate-800/50">
+<div class="flex items-start justify-between mb-2">
+<div class="flex items-center gap-3">
+<div class="flex h-10 w-10 items-center justify-center rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-white">
+<span class="material-symbols-outlined text-[20px]">apartment</span>
+</div>
+<div>
+<h4 class="font-bold text-slate-900 dark:text-white text-base">Grupo Mateus</h4>
+<p class="text-xs font-medium text-slate-500 dark:text-slate-400">São Luis, MA</p>
+</div>
+</div>
+<span class="inline-flex items-center rounded-full bg-primary/10 px-2 py-0.5 text-xs font-medium text-primary text-white">
+                            Presente
+                        </span>
+</div>
+<div class="pl-[3.25rem]">
+<p class="text-sm font-bold text-slate-800 dark:text-slate-200 mb-1">Auxiliar de T.I</p>
+<p class="text-xs text-slate-500 dark:text-slate-400 mb-2">2025 - Present</p>
+<ul class="list-disc list-outside ml-3 text-sm text-slate-600 dark:text-slate-300 space-y-1">
+
+  
+  
+<div style="color: aliceblue;">
+
+<li>Gerenciamento de chamados técnicos via Jira: triagem, priorização e acompanhamento até resolução, garantindo atendimento a usuários internos.
+</li>
+<li>Suporte e manutenção de PDVs, impressoras fiscais, balanças e equipamentos de checkout, reduzindo o tempo de inatividade operacional.
+   
+</li>
+<li>Instalação, configuração e atualização de softwares internos e sistemas de gestão; suporte a integrações com sistemas de vendas.</li>
+</ul>
+</div>
+</div>
+</div>
+<br>
+
+<!-- Experience Card 2 -->
+<div class="flex flex-col rounded-xl bg-white dark:bg-card-dark p-4 shadow-sm ring-1 ring-slate-100 dark:ring-slate-800/50">
+<div class="flex items-start justify-between mb-2">
+<div class="flex items-center gap-3">
+<div class="flex h-10 w-10 items-center justify-center rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-white">
+<span class="material-symbols-outlined text-[20px]">apartment</span>
+</div>
+<div>
+<h4 class="font-bold text-slate-900 dark:text-white text-base">Inspirar Edu</h4>
+<p class="text-xs font-medium text-slate-500 dark:text-slate-400">São Luis,MA</p>
+</div>
+</div>
+</div>
+<div class="pl-[3.25rem]">
+<p class="text-sm font-bold text-slate-800 dark:text-slate-200 mb-1">Assistente de Negócios de Tecnologia</p>
+<p class="text-xs text-slate-500 dark:text-slate-400 mb-2">Dez 2024 - Mai 2025</p>
+<li>
+Desenvolvimento de chatbots e fluxos de atendimento ao cliente, gerando automação e eficiência no suporte, reduzindo custos operacionais e melhorando a experiência do usuário com respostas rápidas e personalizadas.
+</li>
+<li>
+Criação de relatórios e dashboards utilizando Excel e Power BI, facilitando a visualização e interpretação de dados, otimizando o acompanhamento de indicadores de desempenho e aprimorando a tomada de decisões baseada em dados concretos.
+</li>
+
+</p>
+</div>
+</div>
+</div>
+
+
+
+
+
+<div class="flex flex-col rounded-xl bg-white dark:bg-card-dark p-4 shadow-sm ring-1 ring-slate-100 dark:ring-slate-800/50">
+<div class="flex items-start justify-between mb-2">
+<div class="flex items-center gap-3">
+<div class="flex h-10 w-10 items-center justify-center rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-white">
+<span class="material-symbols-outlined text-[20px]">apartment</span>
+</div>
+<div>
+<h4 class="font-bold text-slate-900 dark:text-white text-base">ImuniControl Saúde Ambiental </h4>
+<p class="text-xs font-medium text-slate-500 dark:text-slate-400">São Luis,MA</p>
+</div>
+</div>
+</div>
+<div class="pl-[3.25rem]">
+<p class="text-sm font-bold text-slate-800 dark:text-slate-200 mb-1">Assistente de T.I</p>
+<p class="text-xs text-slate-500 dark:text-slate-400 mb-2">Nov 2024 - Dez 2024</p>
+<li>
+Prestação de suporte técnico. 
+</li>
+<li>
+Desenvolvimento de chatbots e fluxos de atendimento ao cliente. 
+</li>
+<li>
+  Criação de relatórios e dashboards utilizando Excel e Power BI. 
+</li>
+
+
+
+</p>
+</div>
+</div>
+
+
+<br>
+<div class="flex flex-col rounded-xl bg-white dark:bg-card-dark p-4 shadow-sm ring-1 ring-slate-100 dark:ring-slate-800/50">
+<div class="flex items-start justify-between mb-2">
+<div class="flex items-center gap-3">
+<div class="flex h-10 w-10 items-center justify-center rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-white">
+<span class="material-symbols-outlined text-[20px]">apartment</span>
+</div>
+<div>
+<h4 class="font-bold text-slate-900 dark:text-white text-base">Inspirar Edu</h4>
+<p class="text-xs font-medium text-slate-500 dark:text-slate-400">São Luis,MA</p>
+</div>
+</div>
+</div>
+<div class="pl-[3.25rem]">
+<p class="text-sm font-bold text-slate-800 dark:text-slate-200 mb-1">Estagiário de Inteligência Comercial</p>
+<p class="text-xs text-slate-500 dark:text-slate-400 mb-2">Out 2024 - Nov 2024</p>
+<li>
+Desenvolvimento de chatbots e fluxos de atendimento ao cliente. 
+</li>
+<li>
+Criação de relatórios e dashboards utilizando Excel e Power BI. 
+</li>
+<li>
+Identificação de oportunidades de negócios e tendências de mercado. 
+</li>
+
+
+
+</p>
+</div>
+</div>
+
+
+
+<br>
+
+<div class="flex flex-col rounded-xl bg-white dark:bg-card-dark p-4 shadow-sm ring-1 ring-slate-100 dark:ring-slate-800/50">
+<div class="flex items-start justify-between mb-2">
+<div class="flex items-center gap-3">
+<div class="flex h-10 w-10 items-center justify-center rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-white">
+<span class="material-symbols-outlined text-[20px]">apartment</span>
+</div>
+<div>
+<h4 class="font-bold text-slate-900 dark:text-white text-base">Vip Leilões</h4>
+<p class="text-xs font-medium text-slate-500 dark:text-slate-400">São Luis,MA</p>
+</div>
+</div>
+</div>
+<div class="pl-[3.25rem]">
+<p class="text-sm font-bold text-slate-800 dark:text-slate-200 mb-1">Assistente Admin-Aprendiz</p>
+<p class="text-xs text-slate-500 dark:text-slate-400 mb-2">Ago 2023 - Jul 2024</p>
+<li>
+Cadastro e fechamento de contratos com novos fornecedores, garantindo a aquisição de materiais e serviços com as melhores condições de custo, qualidade e prazo. 
+</li>
+<li>
+Análise de compras, decidindo quais itens seriam adquiridos de acordo com a necessidade da empresa. 
+</li>
+<li>
+Recepção e distribuição de EPIs/fardamentos para os departamentos e funcionários apropriados, garantindo que todos os funcionários estivessem devidamente equipados. </li>
+
+
+
+</p>
+</div>
+</div>
+
+
+
+<br>
+
+
+
+<div class="flex flex-col rounded-xl bg-white dark:bg-card-dark p-4 shadow-sm ring-1 ring-slate-100 dark:ring-slate-800/50">
+<div class="flex items-start justify-between mb-2">
+<div class="flex items-center gap-3">
+<div class="flex h-10 w-10 items-center justify-center rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-white">
+<span class="material-symbols-outlined text-[20px]">apartment</span>
+</div>
+<div>
+<h4 class="font-bold text-slate-900 dark:text-white text-base">Blue Tree Hotel</h4>
+<p class="text-xs font-medium text-slate-500 dark:text-slate-400">São Luis,MA</p>
+</div>
+</div>
+</div>
+<div class="pl-[3.25rem]">
+<p class="text-sm font-bold text-slate-800 dark:text-slate-200 mb-1">Assistente de T.I-Estágio</p>
+<p class="text-xs text-slate-500 dark:text-slate-400 mb-2">Ago 2022 - Out 2022</p>
+<li>
+Prestação de suporte técnico, diagnosticando e resolvendo problemas de hardware e software para desktops, laptops e impressoras. 
+</li>
+<li>
+Instalação e configuração de sistemas operacionais e aplicativos de software. </li>
+
+
+</p>
+</div>
+</div>
+
+
+
+
+
+
+
+
+<!-- Education Section -->
+<div class="px-4 mb-4">
+<h3 class="text-lg font-bold leading-tight mb-4 text-slate-900 dark:text-white">Educação</h3>
+<div class="flex flex-col gap-4">
+<!-- Education Card -->
+<div class="flex items-center gap-4 rounded-xl bg-white dark:bg-card-dark p-4 shadow-sm ring-1 ring-slate-100 dark:ring-slate-800/50">
+<div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-white">
+<span class="material-symbols-outlined">school</span>
+</div>
+<div class="flex-1">
+<h4 class="font-bold text-slate-900 dark:text-white text-base">Estácio de Sá</h4>
+<p class="text-sm text-slate-600 dark:text-slate-300">Tecnólogo Análise de Sistemas</p>
+<p class="text-xs text-slate-500 dark:text-slate-400 mt-1">2023 - Jun 2026</p>
+</div>
+
+</div>
+</div>
+</div>
+
+
+<div class="px-4 mb-4">
+
+<div class="flex flex-col gap-4">
+<!-- Education Card -->
+<div class="flex items-center gap-4 rounded-xl bg-white dark:bg-card-dark p-4 shadow-sm ring-1 ring-slate-100 dark:ring-slate-800/50">
+<div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-white">
+<span class="material-symbols-outlined">school</span>
+</div>
+<div class="flex-1">
+<h4 class="font-bold text-slate-900 dark:text-white text-base">IEMA</h4>
+<p class="text-sm text-slate-600 dark:text-slate-300">Técnico em Informática</p>
+<p class="text-xs text-slate-500 dark:text-slate-400 mt-1">2020 -  2022</p>
+</div>
+
+</div>
+</div>
+</div>
+
+
+
+
+<div class="fixed bottom-[6rem] bottom 6rem left-1/2 -translate-x-1/2 z-50 w-[90%] max-w-[400px]">
+<nav class="flex items-center justify-between bg-[#1c1c2e]/80 dark:bg-[#1c1c2e]/90 backdrop-blur-xl border border-white/10 rounded-2xl p-2 px-6 shadow-2xl shadow-black/40">
+
+  <a href="index.html">
+
+
+    <button class="nav-btn flex flex-col items-center justify-center gap-1 p-2 text-slate-400 hover:text-white transition-colors">
+      <span class="material-symbols-outlined">home</span>
+      <span class="text-[10px] font-medium">Home</span>
+    </button>
+  </a>
+<a href="projetos.html">
+
+
+  <button class="nav-btn flex flex-col items-center justify-center gap-1 p-2 text-slate-400 hover:text-white transition-colors">
+<span class="material-symbols-outlined">grid_view</span>
+<span class="text-[10px] font-medium">Projetos</span>
+</button>
+</a>
+
+<a href="about.html">
+
+<button   class="nav-btn flex flex-col items-center justify-center gap-1 p-2 text-[rgb(0,97,255)] hover:text-white transition-colors">
+<span class="material-symbols-outlined">person</span>
+<span class="text-[10px] font-medium">About</span>
+</button>
+
+
+</a>
+<a href="../contact_me/index.html">
+
+<button class="nav-btn flex flex-col items-center justify-center gap-1 p-2 text-slate-400 hover:text-white transition-colors">
+<span class="material-symbols-outlined">mail</span>
+<span class="text-[10px] font-medium">Contact</span>
+</button>
+</a>
+
+</nav>
+</div>
+
+<br>
+
+<!-- Fixed Bottom Action Bar -->
+<a href="ENG.pdf" download>
+
+<div class="fixed bottom-0 left-0 right-0 z-50 p-4 bg-background-light/90 dark:bg-background-dark/90 backdrop-blur-xl border-t border-slate-200 dark:border-slate-800">
+<button  class="w-full flex items-center justify-center gap-2 rounded-xl bg-primary py-3.5 text-base font-bold text-white shadow-lg shadow-primary/25 hover:bg-blue-700 transition-colors active:scale-[0.98]">
+<span class="material-symbols-outlined">download</span>
+
+  Baixar Currículo
+</button>
+</a>                
+</div>
+</div>
+
+<script>
+
+
+</script>
+
+
+
+
+</body>
+</html>

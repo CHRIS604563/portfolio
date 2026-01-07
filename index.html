@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Developer Portfolio Home</title>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#1313ec",
+                        "background-light": "#f6f6f8",
+                        "background-dark": "#101022",
+                    },
+                    fontFamily: {
+                        "display": ["Manrope", "sans-serif"]
+                    },
+                    borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" },
+                },
+            },
+        }
+    </script>
+<style>
+        /* Custom scrollbar for horizontal scrolling */
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-white">
+<div class="relative flex h-full min-h-screen w-full flex-col overflow-x-hidden pb-24">
+<!-- Top App Bar -->
+<header class="sticky top-0 z-50 flex items-center bg-background-light/90 dark:bg-background-dark/90 backdrop-blur-md p-4 pb-2 justify-between">
+<h2 class="text-slate-900 dark:text-white text-xl font-extrabold leading-tight tracking-[-0.015em] flex-1">CR.</h2>
+
+<div class="flex items-center justify-end gap-3">
+<div aria-label="Language Selector" class="flex h-10 items-center rounded-full bg-slate-200 p-1 dark:bg-[#282839]" role="group">
+<button  id="eng-el" class="flex h-full min-w-[36px] items-center justify-center rounded-full bg-white px-2 text-xs font-bold text-slate-900 shadow-sm transition-all dark:bg-primary dark:text-white">EN</button>
+<button id="pt-br" class="flex h-full min-w-[36px] items-center justify-center rounded-full px-2 text-xs font-bold text-slate-900 transition-all hover:text-slate-900 dark:text-white">PT</button>
+</div>
+
+<div class="flex items-center justify-end gap-3">
+<a href="../about_me/ENG.pdf" download>
+
+
+    <button  class="flex items-center justify-center rounded-full h-10 w-10 bg-slate-200 dark:bg-[#282839] text-slate-900 dark:text-white hover:bg-slate-300 dark:hover:bg-[#32324a] transition-colors">
+<span class="material-symbols-outlined" style="font-size: 24px;">download</span>
+
+</a>
+
+</button>
+</div>
+</header>
+<!-- Hero Section -->
+<section class="@container">
+<div class="p-4 pt-0">
+<div class="relative flex min-h-[480px] flex-col gap-6 overflow-hidden rounded-2xl bg-cover bg-center bg-no-repeat items-start justify-end px-6 pb-10 shadow-lg" data-alt="Abstract deep blue and black geometric gradients representing code and technology" style='background-image: linear-gradient(to top, rgba(16, 16, 34, 1) 0%, rgba(16, 16, 34, 0.6) 40%, rgba(16, 16, 34, 0.2) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuAsIr1vjMaKrRC_yY04KFAnClJCpx_sJd2MJaxjtMBmf-toOHRKe7rgvGmLGGVS6AzFF8rmVjgsjVK7B96R3MtAQemhlEG8XLTFzmXXzmXFUM5UomsushGtmydmVWOnjq9dh6bbybhQSVKyRpsDEwdX1gmP6lsQQY1BZKkZdqfOp6LK0MXMRquxWpUw1wL5kYE1KvNV8WX-rfDJOSDIOiVmRnzZYGlIlNwQl-X9dopkz_8gSgU-hpsKUi-orlFticzDcDrq04YKO1c");'>
+
+
+<div class="absolute -top-20 -right-20 h-64 w-64 rounded-full bg-primary/30 blur-[80px]">
+
+
+
+</div>
+
+
+
+
+
+
+<div class="relative flex flex-col gap-3 text-left z-10">
+<div class="inline-flex items-center gap-2 rounded-full bg-primary/20 px-3 py-1 w-fit backdrop-blur-sm border border-primary/20">
+<span class="relative flex h-2 w-2">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
+</span>
+
+</div>
+<h1 class="text-white text-5xl font-black leading-[1.1] tracking-[-0.033em]">
+                            Olá,eu sou <br/><span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-primary">Christians Robert.</span>
+</h1>
+<h2 class="text-slate-200 text-lg font-medium leading-normal max-w-[80%]">
+Criando experiências digitais com código e criatividade.
+</h2>
+</div>
+
+
+
+
+<button onclick="window.location.href='../about_me/index.html'" class="relative z-10 flex w-full items-center justify-center overflow-hidden rounded-xl h-14 bg-primary hover:bg-primary/90 transition-all text-white text-base font-bold leading-normal tracking-[0.015em] shadow-[0_0_20px_rgba(19,19,236,0.3)]">
+<span class="mr-2" >Sobre Mim</span>
+<span  class="material-symbols-outlined text-sm">arrow_forward</span>
+
+
+</a>
+</div>
+</div>
+</section>
+<!-- Stats Section -->
+ 
+<!-- Tech Stack Marquee (Static Representation) -->
+<section class="py-6 overflow-hidden">
+<div class="px-4 mb-3">
+<h3 class="text-slate-900 dark:text-white text-sm uppercase tracking-wider font-bold opacity-60">Tech Stack</h3>
+</div>
+<div class="flex gap-4 px-4 overflow-hidden mask-linear-gradient">
+<!-- In a real app this would be an infinite marquee -->
+<div class="flex gap-3 flex-wrap ">
+<span class="px-4 py-2 rounded-lg bg-slate-200 dark:bg-[#282839] text-sm font-semibold" style="color: rgb(255 255 255);">
+  HTML
+</span>
+
+<span class="px-4 py-2 rounded-lg bg-slate-200 dark:bg-[#282839] text-sm font-semibold" style="color: rgb(255 255 255);">
+    CSS
+</span>
+
+<span class="px-4 py-2 rounded-lg bg-slate-200 dark:bg-[#282839] text-sm font-semibold" style="color: rgb(255 255 255);">
+Javascript
+</span>
+
+<span class="px-4 py-2 rounded-lg bg-slate-200 dark:bg-[#282839] text-sm font-semibold" style="color: rgb(255 255 255);">
+SQL
+</span>
+<span class="px-4 py-2 rounded-lg bg-slate-200 dark:bg-[#282839] text-sm font-semibold" style="color: rgb(255 255 255);">
+  Power Bi
+</span>
+
+<span class="px-4 py-2 rounded-lg bg-slate-200 dark:bg-[#282839] text-sm font-semibold" style="color: rgb(255 255 255);">
+React
+</span>
+<span class="px-4 py-2 rounded-lg bg-slate-200 dark:bg-[#282839] text-sm font-semibold" style="color: rgb(255 255 255);">
+Figma
+</span>
+
+
+</div>
+</div>
+</section>
+<!-- Featured Work Section -->
+<section class="mb-4">
+<div class="flex items-center justify-between px-4 pb-4 pt-2">
+<h3 class="text-slate-900 dark:text-white tracking-tight text-xl font-bold leading-tight">Alguns Trabalhos</h3>
+
+<button onclick=window.location.href="../projects_list/index.html"   class="bg-blue-700 w-[90px] rounded-[200px]">
+   
+    <a  class="text-primary text-sm font-bold hover:underline text-white ring-background-dark ">Ver Todos</a>
+
+</button>
+</div>
+<!-- Horizontal Scroll Container -->
+<div class="flex overflow-x-auto no-scrollbar gap-4 px-4 pb-4 snap-x snap-mandatory">
+<!-- Project Card 1 -->
+<div class="snap-center min-w-[85vw] flex flex-col rounded-2xl bg-white dark:bg-[#1c1c2e] overflow-hidden border border-slate-100 dark:border-slate-800 shadow-sm group cursor-pointer">
+<div class="h-48 w-full bg-slate-200 dark:bg-[#2a2a3f] relative overflow-hidden">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" data-alt="App interface mockup showing a finance dashboard on a phone screen" style='background-image: url("../projects_list/mapa.png");'>
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-[#1c1c2e] to-transparent opacity-60"></div>
+<div class="absolute bottom-3 left-3 flex gap-2">
+<span class="px-2 py-1 rounded bg-black/50 backdrop-blur-md text-[10px] font-bold text-white uppercase tracking-wider border border-white/10">Mobile App</span>
+</div>
+</div>
+<div class="p-5 flex flex-col gap-2">
+<h4 class="text-slate-900 dark:text-white text-lg font-bold leading-tight">EncontraAí</h4>
+<p class="text-slate-500 dark:text-slate-400 text-sm line-clamp-2">Se não sabe onde encontrar certo produto no supermercado essa é a solução.</p>
+<div class="flex items-center gap-2 mt-2 text-primary font-bold text-sm group-hover:gap-3 transition-all">
+
+</div>
+</div>
+</div>
+<!-- Project Card 2 -->
+<div class="snap-center min-w-[85vw] flex flex-col rounded-2xl bg-white dark:bg-[#1c1c2e] overflow-hidden border border-slate-100 dark:border-slate-800 shadow-sm group cursor-pointer">
+<div class="h-48 w-full bg-slate-200 dark:bg-[#2a2a3f] relative overflow-hidden">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" data-alt="Screenshot of an e-commerce analytics dashboard on a laptop screen" style='background-image: url("../projects_list/aposta.png");'>
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-[#1c1c2e] to-transparent opacity-60"></div>
+<div class="absolute bottom-3 left-3 flex gap-2">
+<span class="px-2 py-1 rounded bg-black/50 backdrop-blur-md text-[10px] font-bold text-white uppercase tracking-wider border border-white/10">SaaS Platform</span>
+</div>
+</div>
+<div class="p-5 flex flex-col gap-2">
+<h4 class="text-slate-900 dark:text-white text-lg font-bold leading-tight">ApostaGênio</h4>
+<p class="text-slate-500 dark:text-slate-400 text-sm line-clamp-2">A casa que aposta junto com você.</p>
+<div class="flex items-center gap-2 mt-2 text-primary font-bold text-sm group-hover:gap-3 transition-all">
+
+
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Spacer for bottom nav -->
+<!-- Floating Bottom Navigation -->
+<div class="fixed bottom-[1rem] bottom 6rem left-1/2 -translate-x-1/2 z-50 w-[90%] max-w-[400px]">
+<nav class="flex items-center justify-between bg-[#1c1c2e]/80 dark:bg-[#1c1c2e]/90 backdrop-blur-xl border border-white/10 rounded-2xl p-2 px-6 shadow-2xl shadow-black/40">
+<a href="../developer_portfolio_home/index.html">
+
+
+    <button class="flex flex-col items-center justify-center gap-1 p-2 text-primary">
+        <span class="material-symbols-outlined filled">home</span>
+        <span class="text-[10px] font-medium">Home</span>
+    </button>
+</a>
+
+
+<a href="projetos.html"
+
+
+<button class="flex flex-col items-center justify-center gap-1 p-2 text-slate-400 hover:text-white transition-colors">
+<span class="material-symbols-outlined">grid_view</span>
+<span class="text-[10px] font-medium">Projetos</span>
+</button>
+
+</a>
+
+<a href="../about_me/index.html">
+<button class="flex flex-col items-center justify-center gap-1 p-2 text-slate-400 hover:text-white transition-colors">
+
+
+    <span class="material-symbols-outlined">person</span>
+<span class="text-[10px] font-medium">Sobre</span>
+</button>
+
+</a>
+<a href="../contact_me/index.html">
+
+
+
+<button class="flex flex-col items-center justify-center gap-1 p-2 text-slate-400 hover:text-white transition-colors">
+<span class="material-symbols-outlined">mail</span>
+<span class="text-[10px] font-medium">Contato</span>
+</button>
+
+</a>
+
+</nav>
+</div>
+
+</body>
+
+
+
+<script>
+let ptBr = document.querySelector('#pt-br')
+let engEl = document.querySelector('#eng-el')
+
+ptBr.addEventListener('click',()=>{
+    engEl.style.backgroundColor = 'rgba(40, 40, 57, 1)';
+    ptBr.style.backgroundColor = 'rgb(19,19,236)'
+})
+
+engEl.addEventListener('click',()=>{
+
+engEl.style.backgroundColor = 'rgb(19,19,236)'
+    ptBr.style.backgroundColor = 'rgba(40, 40, 57, 1)';
+
+})
+
+
+
+
+</script>
+
+
+</html>
